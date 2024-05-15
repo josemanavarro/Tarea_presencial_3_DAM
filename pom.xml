@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>dam</groupId>
+    <artifactId>TareaPresencial3DI</artifactId>
+    <version>1.0-PRIMERA_ENTREGA</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <exec.mainClass>dam.tareapresencial3di.TareaPresencial3DI</exec.mainClass>
+    </properties>
+    <repositories>
+        <repository>
+           <id>repository.groupdocs.com</id>
+           <name>GroupDocs Repository</name>
+           <url>https://releases.groupdocs.com/java/repo/</url>
+        </repository>
+    </repositories>
+    <dependencies>
+       <dependency>
+          <groupId>com.groupdocs</groupId>
+          <artifactId>groupdocs-viewer</artifactId>
+          <version>24.4</version>
+       </dependency>
+    </dependencies>
+</project>
